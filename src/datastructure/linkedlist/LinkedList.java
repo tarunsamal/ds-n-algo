@@ -1,6 +1,6 @@
 package datastructure.linkedlist;
 
-public class LinkList {
+public class LinkedList {
     private Node head;
     private Node tail;
     private int length;
@@ -8,7 +8,7 @@ public class LinkList {
     /*
         Creates the linked list
      */
-    public LinkList(int value) {
+    public LinkedList(int value) {
         Node node = new Node(value);
         head = node;
         tail = node;

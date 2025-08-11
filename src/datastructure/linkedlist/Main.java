@@ -3,7 +3,7 @@ package datastructure.linkedlist;
 public class Main {
     public static void main(String[] args) {
         /*Test : Create*/
-        LinkList list = new LinkList(10);
+        LinkedList list = new LinkedList(10);
         list.print();
 
         /*Test : Append*/
